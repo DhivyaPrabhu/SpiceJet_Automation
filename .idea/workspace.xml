@@ -5,12 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01f6978e-6383-436c-8c26-881ae1f2d298" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Screenshots/LoginTest_ivalid_crendentials.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Screenshots/LoginTest_via_InvalidMobileNum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Screenshots/LoginTest_via_MobileNum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Screenshots/LoginTest_via_MobileNum_with_Empty_Credentials.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Screenshots/LoginTest_via_email.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Screenshots/LoginTest_with_empty_crendentials.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Screenshots/Oneway_TripTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Screenshots/Oneway_TripTest_with_missing_Credential.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Screenshots/PaymentProcess.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Screenshots/Round_TripTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Screenshots/Round_TripTest_with_MissingCredentials.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Screenshots/SignupForm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Screenshots/SignupForm_with_invalid_credentials.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Screenshots/SignupForm_with_nullValues.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages_Spicejet/BookingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages_Spicejet/BookingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages_Spicejet/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages_Spicejet/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages_Spicejet/SignupPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages_Spicejet/SignupPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages_Spicejet/Trip_SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages_Spicejet/Trip_SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases_Spicejet/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases_Spicejet/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases_Spicejet/RoundTripTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases_Spicejet/RoundTripTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/ExtentReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/ExtentReportGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/TestNgListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/TestNgListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/SpiceJet Test/Chrome Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/SpiceJet Test/Chrome Test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,30 +55,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.BookingFlight.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.D:/Intelli workspace/SpiceJet_Flight_BookingSystem/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.OneWayTripTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.OneWayTrip_and_RoundTripTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.RoundTripTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SelectFlight.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignupTest.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;D:/Intelli workspace/SpiceJet_Flight_BookingSystem/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Intelli workspace/SpiceJet_Flight_BookingSystem/src/test/Excel&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Intelli workspace/SpiceJet_Flight_BookingSystem/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.BookingFlight.executor": "Run",
+    "TestNG.D:/Intelli workspace/SpiceJet_Flight_BookingSystem/testng.xml.executor": "Run",
+    "TestNG.LoginTest.executor": "Run",
+    "TestNG.OneWayTripTest.executor": "Run",
+    "TestNG.OneWayTrip_and_RoundTripTest.executor": "Run",
+    "TestNG.RoundTripTest.executor": "Run",
+    "TestNG.SelectFlight.executor": "Run",
+    "TestNG.SignupTest.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "D:/Intelli workspace/SpiceJet_Flight_BookingSystem/src/test/java",
+    "last_opened_file_path": "D:/Intelli workspace/SpiceJet_Flight_BookingSystem/src/test/Screenshots",
+    "onboarding.tips.debug.path": "D:/Intelli workspace/SpiceJet_Flight_BookingSystem/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intelli workspace\SpiceJet_Flight_BookingSystem\src\test\Screenshots" />
       <recent name="D:\Intelli workspace\SpiceJet_Flight_BookingSystem\src\test\Excel" />
       <recent name="D:\Intelli workspace\SpiceJet_Flight_BookingSystem\src\test" />
       <recent name="D:\Intelli workspace\SpiceJet_Flight_BookingSystem\src\test\java\Utilities" />

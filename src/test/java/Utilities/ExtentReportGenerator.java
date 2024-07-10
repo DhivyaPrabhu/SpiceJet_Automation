@@ -10,7 +10,7 @@ public class ExtentReportGenerator
     public static ExtentReports getExtentReport()
     {
         ExtentReports report=new ExtentReports();
-        File extentReportfile=new File("D:\\Intelli workspace\\BestBuy-E-Commerce\\src\\test\\ExtentReports\\eReport.html");
+        File extentReportfile=new File("D:\\Intelli workspace\\SpiceJet_Flight_BookingSystem\\ExtentReport\\eReport.html");
         ExtentSparkReporter sparkReporter=new ExtentSparkReporter(extentReportfile);
         report.attachReporter(sparkReporter);
         return report;

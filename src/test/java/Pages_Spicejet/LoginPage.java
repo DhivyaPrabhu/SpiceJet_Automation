@@ -1,5 +1,6 @@
 package Pages_Spicejet;
 
+import Utilities.ExtentReportGenerator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,6 +11,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import java.time.Duration;
+
+import static Utilities.ExtentReportGenerator.getExtentReport;
 
 public class LoginPage
 {
@@ -52,6 +55,10 @@ public class LoginPage
         {
             e.getMessage();
         }
+        finally {
+            // Report generation code
+            getExtentReport();
+        }
 
     }
     public void setLogin_via_MobileNum(String mobileNum, String password)
@@ -67,6 +74,10 @@ public class LoginPage
         catch (Exception e)
         {
             e.getMessage();
+        }
+        finally {
+            // Report generation code
+            getExtentReport();
         }
     }
     public void validationOfLogin()

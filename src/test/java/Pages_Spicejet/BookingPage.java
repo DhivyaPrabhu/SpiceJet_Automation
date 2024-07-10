@@ -1,11 +1,14 @@
 package Pages_Spicejet;
 
+import Utilities.ExtentReportGenerator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+
+import static Utilities.ExtentReportGenerator.getExtentReport;
 
 public class BookingPage
 {
@@ -140,6 +143,10 @@ public class BookingPage
        catch (Exception e)
        {
            e.getMessage();
+       }
+       finally {
+           // Report generation code
+           getExtentReport();
        }
         Assert.assertTrue(true);
     }

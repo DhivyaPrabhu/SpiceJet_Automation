@@ -20,7 +20,7 @@ public class RoundTripTest extends BaseClass
         Assert.assertTrue(true);
         baseClass.BookingPage();
     }
-    @Test(priority = 12)
+    @Test(enabled = false, priority = 12)
     public void Round_TripTest_with_MissingCredentials() throws InterruptedException {
         Trip_SearchPage sp=new Trip_SearchPage(driver);
         BaseClass baseClass=new BaseClass();

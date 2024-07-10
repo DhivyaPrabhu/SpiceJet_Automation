@@ -13,6 +13,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+import static Utilities.ExtentReportGenerator.getExtentReport;
+
 public class SignupPage
 {
     public WebDriver driver;
@@ -101,6 +103,9 @@ public class SignupPage
         catch (Exception e)
         {
             e.getMessage();
+        }
+        finally {
+            getExtentReport();
         }
     }
 

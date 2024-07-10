@@ -56,7 +56,7 @@ public class BaseClass
         TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
         File scrFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
 
-        File destinationFile = new File("D:\\Intelli workspace\\SpiceJet_Flight_BookingSystem\\src\\test\\Screenshots\\" + testCaseName + ".png");
+        File destinationFile = new File("D:\\Intelli workspace\\SpiceJet_Flight_BookingSystem\\Screenshots\\" + testCaseName + ".png");
         try {
             FileUtils.copyFile(scrFile, destinationFile);
         } catch (IOException e) {

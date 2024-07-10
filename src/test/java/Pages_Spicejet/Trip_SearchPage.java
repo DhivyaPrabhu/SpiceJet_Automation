@@ -1,5 +1,6 @@
 package Pages_Spicejet;
 
+import Utilities.ExtentReportGenerator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,6 +10,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import java.time.Duration;
+
+import static Utilities.ExtentReportGenerator.getExtentReport;
 
 public class Trip_SearchPage {
     public WebDriver driver;
@@ -157,6 +160,10 @@ public class Trip_SearchPage {
         } catch (Exception e) {
             // Handle timeout exception if needed
             e.printStackTrace(); // Example: print stack trace
+        }
+        finally {
+            // Report generation code
+            getExtentReport();
         }
     }
 
