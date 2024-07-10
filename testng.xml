@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SpiceJet Test">
+    <listeners>
+        <listener class-name="Utilities.TestNgListener" />
+    </listeners>
+    <test name="Chrome Test">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="url" value="https://www.spicejet.com/"/>
+        <classes>
+            <class name="TestCases_Spicejet.SignupTest"/>
+            <class name="TestCases_Spicejet.LoginTest"/>
+            <class name="TestCases_Spicejet.OneWayTripTest"/>
+            <class name="TestCases_Spicejet.RoundTripTest"/>
+            <class name="TestCases_Spicejet.BookingFlight"></class>
+        </classes>
+    </test> <!-- Test -->
+</suite>
